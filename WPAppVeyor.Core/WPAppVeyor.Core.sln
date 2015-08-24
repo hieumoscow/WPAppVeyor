@@ -5,16 +5,44 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPAppVeyor.Core", "WPAppVeyor.Core\WPAppVeyor.Core.csproj", "{5E1E2A32-D5C9-4888-98C8-717B7C9A301C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPAppVeyor.WP", "WPAppVeyor.WP\WPAppVeyor.WP.csproj", "{A416B6AB-6EF9-449E-9561-7B0055D478FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5E1E2A32-D5C9-4888-98C8-717B7C9A301C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E1E2A32-D5C9-4888-98C8-717B7C9A301C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1E2A32-D5C9-4888-98C8-717B7C9A301C}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5E1E2A32-D5C9-4888-98C8-717B7C9A301C}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{5E1E2A32-D5C9-4888-98C8-717B7C9A301C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E1E2A32-D5C9-4888-98C8-717B7C9A301C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E1E2A32-D5C9-4888-98C8-717B7C9A301C}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5E1E2A32-D5C9-4888-98C8-717B7C9A301C}.Release|x86.ActiveCfg = Release|Any CPU
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Debug|ARM.Build.0 = Debug|ARM
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Debug|ARM.Deploy.0 = Debug|ARM
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Debug|x86.ActiveCfg = Debug|x86
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Debug|x86.Build.0 = Debug|x86
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Debug|x86.Deploy.0 = Debug|x86
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Release|ARM.ActiveCfg = Release|ARM
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Release|ARM.Build.0 = Release|ARM
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Release|ARM.Deploy.0 = Release|ARM
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Release|x86.ActiveCfg = Release|x86
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Release|x86.Build.0 = Release|x86
+		{A416B6AB-6EF9-449E-9561-7B0055D478FF}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
